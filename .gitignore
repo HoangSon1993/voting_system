@@ -1,0 +1,36 @@
+# .gitignore tại thư mục voiting_system
+
+# Ignoring common system files and editor settings
+.DS_Store
+*.log
+*.tmp
+
+# Ignoring files for Java and Spring Boot (voting_backend)
+voting_backend/.mvn/
+voting_backend/target/
+voting_backend/*.jar
+voting_backend/*.war
+voting_backend/*.iml
+voting_backend/.idea/
+voting_backend/.classpath
+voting_backend/.project
+voting_backend/.settings/
+voting_backend/.vscode/
+voting_backend/node_modules/  # Nếu có dùng Node.js cho frontend bên trong backend
+
+# Ignoring files for Flutter (voting_ui)
+voting_ui/.dart_tool/
+voting_ui/.packages
+voting_ui/flutter_build/
+voting_ui/pubspec.lock
+voting_ui/build/
+voting_ui/.idea/
+voting_ui/.vscode/
+voting_ui/node_modules/  # Nếu có dùng Node.js cho Flutter frontend
+
+# Ignoring IDE specific settings
+.idea/
+.vscode/
+*.swp
+
+./.idea
