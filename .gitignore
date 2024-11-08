@@ -33,4 +33,6 @@ voting_ui/node_modules/  # Nếu có dùng Node.js cho Flutter frontend
 .vscode/
 *.swp
 
-./.idea
+/.idea/
+*.iml
+
