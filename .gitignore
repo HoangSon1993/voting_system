@@ -36,3 +36,7 @@ voting_ui/node_modules/  # Nếu có dùng Node.js cho Flutter frontend
 /.idea/
 *.iml
 
+# Ignore Flutter generated files
+voting_ui/**/flutter/generated_plugin_registrant.*
+voting_ui/**/flutter/generated_plugins.cmake
+voting_ui/**/Flutter/GeneratedPluginRegistrant.swift
